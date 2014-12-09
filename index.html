@@ -1,79 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="LaRutaNica : Allows the users to create a travel plan and send it to many tour operators to receive an offer in a competitive environment.">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>La Ruta Nica</title>
 
-    <title>LaRutaNica</title>
-  </head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./fonts/fontello/css/fontello.css" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
 
-  <body>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/KakaoMedia/LaRutaNica">View on GitHub</a>
-
-          <h1 id="project_title">LaRutaNica</h1>
-          <h2 id="project_tagline">Allows the users to create a travel plan and send it to many tour operators to receive an offer in a competitive environment.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/KakaoMedia/LaRutaNica/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/KakaoMedia/LaRutaNica/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<body class="full">
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">La Ruta Nica</span>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="footer_elem active oferta_link" href="#">La Oferta</a>
+          </li>
+          <li>
+            <a class="footer_elem faq_link" href="#">¿Cómo Funciona?</a>
+          </li>
+          <li>
+            <a class="footer_elem logo_link" href="http://www.kakaomedia.com/es/" target="_blank">..de <img id="kakao_media_logo" src="img/kakao-logo-pqe.png" alt="Kakao Media"></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
+  </nav>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+  <!-- Page Content -->
+  <div id="header" class="container">
+    <div class="row">
+      <div class="header_desc col-lg-6 col-sm-7 col-xs-12">
+        <div id="oferta">
+          <h2 class="header_title">LLEVA A TU EMPRESA AL SIGUIENTE NIVEL</h2>
+          <p>Estamos trabajando en la plataforma web que te ayudará a tener un mayor alcance de clientes.</p>
+          <p>Características que te serán útiles:</p>
+          <p>
+            <span class="icon-blogok desc-check"></span>
+            Más opciones para comunicarte con clientes, ellos mismos escribirán sus planes y podrás responderles con tus paquetes de viaje.
+          </p>
+          <p>
+            <span class="icon-blogok desc-check"></span>
+            Tendrás acceso a que usuarios les has enviado oferta, quienes ya decidieron, quienes te respondieron con inquietudes, todo a través de un administrador de peticiones.
+          </p>
+          <p>Estamos a punto de lanzar, así que tenemos una promoción de que al suscribirte, usarás gratis el sitio por 1 mes. Suscríbete y se parte de un nuevo <em>estilo de servicio!</em></p>
+        </div>
+        <div id="faq">
+          <h2 class="header_title">¿QUIÉRES SABER MÁS?</h2>
+          <p><span class="icon-blogok desc-check"></span>¿Cómo funciona?</p>
+          <p>Funciona permitiendo a los usuarios ingresar sus planes con ciertos datos obligatorios, como el lugar de destino, el número de viajeros y la fecha de salida más otros opcionales como la cantidad de días para el viaje y la cantidad de dinero planeada a usar. Estos datos te los presentamos, para que les envíes propuestas a los usuarios que cumplan o se aproximen a sus planes. Ellos decidirán si contestarte de regreso, aceptar tu oferta o no hacerlo. En todos los casos recibirías mensajes confirmándote que ha pasado con estas personas con quienes has intentado conectarte.</p>
+          <p><span class="icon-blogok desc-check"></span>¿Pueden las personas contactarme directamente?</p>
+          <p>Ellos te pueden llamar al número de teléfono que dejes registrado con nosotros.</p>
+          <p><span class="icon-blogok desc-check"></span>¿Reservas a través del sitio?</p>
+          <p>Aún no. Cuando el usuario acepte tu propuesta, te lo haremos saber, y entre ambas partes pueden terminar el proceso.</p>
+        </div>
+      </div>
+      <div id="form_container" class="col-lg-4 col-sm-4 col-xs-12 col-lg-offset-1 col-sm-offset-1">
+        <div class="darker not_much"></div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="darker"></div>
+            <h2>¡Suscríbete!</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div id="mc_embed_signup">
+              <form action="https://kakaomedia.us9.list-manage.com/subscribe/post?u=f4c27ca3d687b06a7b817f0b0&amp;id=7e4c52b04b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <div id="mce-responses form-group" class="clear">
+                    <p id="form_initial_message">Te mantendremos informados sobre las novedades y noticias importantes</p>
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <div class="indicates-required"><span class="indicates-required-asterisk">*</span> requerido</div>
+                  <div class="form-group">
+                    <span class="asterisk">*</span>
+                    <input type="text" value="" name="CNAME" class="required form-control" id="mce-CNAME" placeholder="Nombre de la compañía">
+                  </div>
+                  <div class="form-group">
+                    <span class="asterisk">*</span>
+                    <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Correo electrónico">
+                  </div>
+                  <div class="form-group">
+                    <textarea name="MESSAGE" id="mce-MESSAGE" class="form-control" placeholder="Sugerencias para la plataforma" rows="3"></textarea>
+                  </div>
+                  <div class="mc-field-group input-group form-group">
+                    <strong>Formato Correo </strong>
+                    <ul>
+                      <li>
+                        <input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0">
+                        <label for="mce-EMAILTYPE-0">html</label>
+                      </li>
+                      <li>
+                        <input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1">
+                        <label for="mce-EMAILTYPE-1">texto</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_f4c27ca3d687b06a7b817f0b0_7e4c52b04b" tabindex="-1" value="">
+                  </div>
+                  <div class="clear form-group">
+                    <input type="submit" value="ENVIAR" name="subscribe" id="mc-embedded-subscribe" class="btn button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">LaRutaNica maintained by <a href="https://github.com/KakaoMedia">KakaoMedia</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/jquery-ui.min.js"></script>
+  <script type='text/javascript' src="js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript' src="js/main.min.js"></script>
+</body>
 </html>
