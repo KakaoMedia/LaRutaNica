@@ -2,6 +2,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .full {
@@ -28,11 +29,12 @@ body {
 
 .full p {
   text-align: justify;
+  font-size: 1.1em;
 }
 
 .full .darker {
   opacity: 0.5;
-  filter: alpha(opacity=35);
+  filter: alpha(opacity=50);
   background-color: #333;
   width: 100%;
   height: 100%;
@@ -50,6 +52,13 @@ body {
 
 .full .desc-check {
   color: #FFCA00;
+}
+.full #faq .header_title {
+  margin-top: 10px
+}
+.full .header_title {
+  font-weight: 700;
+  margin-top: 0;
 }
 
 .full .header_title:after {
@@ -90,10 +99,46 @@ body {
   display: none;
 }
 
+/*----Form----*/
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+}
+.asterisk {
+  right: 0;
+  position: absolute;
+  margin-right: 8%;
+  font-size: 1.6em;
+  color: #F97E03;
+}
+.indicates-required {
+  text-align: right;
+  color: #F97E03;
+}
+.indicates-required-asterisk{
+  font-size: 1.2em;
+}
+.mc-field-group.input-group ul {
+  text-align: left;
+  list-style: none;
+}
+.mc-field-group.input-group ul > li input {
+  margin: 4px 9% 0 -30%;
+}
+
 .full #form_container {
   display: inline-block;
   position: relative;
   padding: 0 1em;
+}
+
+.full .form_title {
+  margin-top: 10px;
+}
+
+.full .form_body {
+  padding-left: 2.7%;
+  padding-right: 2.7%;
 }
 
 .full #form_container #form_initial_message,
@@ -107,7 +152,16 @@ body {
   color: #316073;
   border-color: #316073;
   width: 50%;
+  /*background-color: #ACE;*/
 }
+
+/*.full form input[type=text],
+.full form input[type=email],
+.full form textarea {
+  opacity: 0.5;
+  background-color: #333;
+  color: #fff;
+}*/
 
 .full form input[placeholder]:focus::-webkit-input-placeholder,
 .full form textarea[placeholder]:focus::-webkit-input-placeholder{
@@ -152,31 +206,4 @@ body {
 .full form textarea[placeholder]:-ms-input-placeholder {
   opacity: 1;
   color: #316073 !important;
-}
-
-/*----Form----*/
-#mc_embed_signup {
-  clear: left;
-  font: 14px Helvetica,Arial,sans-serif;
-}
-.asterisk {
-  right: 0;
-  position: absolute;
-  margin-right: 8%;
-  font-size: 1.6em;
-  color: #F97E03;
-}
-.indicates-required {
-  text-align: right;
-  color: #F97E03;
-}
-.indicates-required-asterisk{
-  font-size: 1.2em;
-}
-.mc-field-group.input-group ul {
-  text-align: left;
-  list-style: none;
-}
-.mc-field-group.input-group ul > li input {
-  margin: 4px 9% 0 -30%;
 }
