@@ -53,8 +53,9 @@ body {
 .full .desc-check {
   color: #FFCA00;
 }
-.full #faq .header_title {
-  margin-top: 10px
+.full .header_title,
+.full .form_title {
+  font-size: 1.8em;
 }
 .full .header_title {
   font-weight: 700;
@@ -67,21 +68,22 @@ body {
   display: block;
   margin: 10px auto 0;
   background-color: #CDF;
-  /*background: -webkit-gradient(linear, 0 0, 100% 0, from(#232323), to(#232323), color-stop(50%, #F97E03));
-  background: -moz-radial-gradient(#F97E03, #00A);
-  background: -o-radial-gradient(#F97E03, #00A);*/
 }
-
+.full .navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
 .full .footer_elem.active {
-  background: #F97E03;
-  content:'';
+  background-color: #799E2A !important;
   display: block;
   color: #FFF !important;
-  
+  /*content:'';
+
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#232323), to(#232323), color-stop(50%, #F97E03));
   background: -moz-radial-gradient(#F97E03, #000);
-  background: -o-radial-gradient(#F97E03, #000);
+  background: -o-radial-gradient(#F97E03, #000);*/
 }
+
 
 .full .logo_link {
   position:relative;
@@ -132,6 +134,20 @@ body {
   padding: 0 1em;
 }
 
+.full #form_container input[type=text],
+.full #form_container input[type=email],
+.full #form_container textarea {
+  opacity: 0.5;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.full #form_container input[type=submit] {
+  background-color: #799E2A;
+  color: #fff;
+}
+
 .full .form_title {
   margin-top: 10px;
 }
@@ -146,22 +162,15 @@ body {
 .full #form_container #mce-success-response {
   margin-top: 8%;
   margin-bottom: 7%;
+  text-align: center;
 }
 
 .full #form_container #mc-embedded-subscribe {
-  color: #316073;
-  border-color: #316073;
-  width: 50%;
-  /*background-color: #ACE;*/
-}
-
-/*.full form input[type=text],
-.full form input[type=email],
-.full form textarea {
-  opacity: 0.5;
-  background-color: #333;
+  background-color: #799E2A;
   color: #fff;
-}*/
+  border-color: #799E2A;
+  width: 23%;
+}
 
 .full form input[placeholder]:focus::-webkit-input-placeholder,
 .full form textarea[placeholder]:focus::-webkit-input-placeholder{
@@ -171,7 +180,7 @@ body {
 .full form input[placeholder]::-webkit-input-placeholder,
 .full form textarea[placeholder]::-webkit-input-placeholder {
   opacity: 1;
-  color: #316073 !important;
+  color: #fff !important;
 }
 
 .full form input[placeholder]:focus::-moz-placeholder,
@@ -182,7 +191,7 @@ body {
 .full form input[placeholder]::-moz-placeholder,
 .full form textarea[placeholder]::-moz-placeholder {
   opacity: 1;
-  color: #316073 !important;
+  color: #fff !important;
 }
 
 /* En el caso de :-moz- es para versiones anteriores (pre-19)*/
@@ -194,7 +203,7 @@ body {
 .full form input[placeholder]:-moz-placeholder,
 .full form textarea[placeholder]:-moz-placeholder {
   opacity: 1;
-  color: #316073 !important;
+  color: #fff !important;
 }
 
 .full form input[placeholder]:focus:-ms-input-placeholder,
@@ -205,5 +214,5 @@ body {
 .full form input[placeholder]:-ms-input-placeholder,
 .full form textarea[placeholder]:-ms-input-placeholder {
   opacity: 1;
-  color: #316073 !important;
+  color: #fff !important;
 }
